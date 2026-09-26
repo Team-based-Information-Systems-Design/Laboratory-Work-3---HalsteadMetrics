@@ -6,7 +6,7 @@ public class HalsteadMetricsTask2 {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
-        System.out.println("Введите параметры для расчёта метрик Холстеда:");
+        System.out.println("Введите параметры для расчёта метрик Холстеда:"); // Ввод занчений из расчетной таблицы по вариантам
 
         System.out.print("Количество отслеживаемых параметров: "); // 8
         int trackedParameters = scanner.nextInt();
